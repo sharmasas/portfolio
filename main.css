@@ -12,13 +12,14 @@ body {
 /**  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
   background-position: center top;
   background-size: cover; **/
-  margin: 0;
+  margin: 20px;
 }
 
 .page-title {
   font-family: 'IBM Plex Sans', sans-serif;
-  text-align: center;
+  text-align: left;
   font-weight: 100;
+  font-size: 60px;
 }
 
 .page-description {
@@ -35,7 +36,6 @@ body {
 
 .gallery-item {
   margin: 20px;
-  border: 5px solid #FFF;
 }
 
 .gallery-item .thumbnail {
