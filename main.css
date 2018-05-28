@@ -9,9 +9,9 @@ html, body {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+/**  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
   background-position: center top;
-  background-size: cover;
+  background-size: cover; **/
   margin: 0;
 }
 
@@ -22,8 +22,7 @@ body {
 }
 
 .page-description {
-  border: 1px solid #000;
-  text-align: center;
+  text-align: left;
   padding: 30px;
 }
 
