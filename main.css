@@ -60,7 +60,7 @@ header {
 }
 
 .gallery-item .thumbnail {
-
+  max-width: 300px;
 }
 
 /* FOOTER NAVIGATION */
