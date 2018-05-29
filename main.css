@@ -4,7 +4,7 @@ html, body {
   display: flex;
   flex-direction: column;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 1.75;
   background-color: #fcfcfc;
 
 }
@@ -17,8 +17,10 @@ body {
 
 body a {
   text-decoration: none;
-  color: black;
+  color: #000;
   font-weight: 400;
+  transition: 0.4s;
+
 }
 
 body a:hover {
@@ -27,7 +29,7 @@ body a:hover {
 }
 
 header {
-  padding: 60px;
+  padding: 50px;
   max-width: 600px;
 
 }
@@ -40,7 +42,7 @@ header {
 
 .page-title {
   justify-content: flex-start;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 60px;
   padding-top: 30px;
 }
@@ -66,22 +68,32 @@ header {
 }
 
 .gallery-item {
-  margin: 10px;
+  margin: 15px;
+  padding-bottom:20px;
 
 }
 
 .gallery-item .thumbnail {
   max-width: 300px;
+  transition: 0.3s;
+}
+
+.gallery-item .thumbnail:hover {
+    background-color:#afbed6;
+    opacity:0.8;
+    z-index: 100;
+}
 
 }
 
 .about-item {
   margin: 10px;
-  padding-top: 90px;
 }
 
 .about-item .thumbnail {
   max-width: 250px;
+  padding-top: 110px;
+
 
 }
 
@@ -111,13 +123,6 @@ nav ul {
 nav a {
   height: 60px;
   line-height: 60px;
-  color: #000;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: #8e8e8e;
-  text-decoration: none;
 }
 
 
