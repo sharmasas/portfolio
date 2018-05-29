@@ -5,37 +5,58 @@ html, body {
   flex-direction: column;
   font-weight: 300;
   line-height: 1.5;
+  background-color: #fcfcfc;
+
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-/**  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
-  background-position: center top;
-  background-size: cover; **/
-  margin: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0px;
+  justify-content: center;
+}
+
+header {
+  padding: 60px;
+  max-width: 600px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .page-title {
-  font-family: 'IBM Plex Sans', sans-serif;
-  text-align: left;
-  font-weight: 100;
+  justify-content: flex-start;
+  font-weight: 300;
   font-size: 60px;
+  padding-top: 30px;
+}
+
+.page-subtitle {
+  justify-content: flex-start;
+  padding: 0px;
+  font-size: 30px;
+
 }
 
 .page-description {
-  text-align: left;
-  padding: 30px;
+  justify-content: flex-start;
+  padding: 0px;
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 20px;
+  padding: 60px;
+  max-width: 1200px;
 }
 
 .gallery-item {
-  margin: 20px;
+  margin: 10px;
+
 }
 
 .gallery-item .thumbnail {
@@ -45,12 +66,18 @@ body {
 /* FOOTER NAVIGATION */
 
 nav {
-  background-color: #FFF;
+  background-color: #fcfcfc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 60px;
 }
 
 nav li {
   margin: 0;
-  padding: 0 10px;
+  padding: 20px;
   display: inline;
 }
 
@@ -58,25 +85,16 @@ nav ul {
   display: inline;
 }
 
-.contact-btn {
- float: right;
-}
-
-.contact-btn a {
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-}
-
-.contact-btn a:active {
-  position: relative;
-  bottom: 2px;
-}
 
 nav a {
   height: 60px;
   line-height: 60px;
-  color: #204156;
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #8e8e8e;
   text-decoration: none;
 }
 
